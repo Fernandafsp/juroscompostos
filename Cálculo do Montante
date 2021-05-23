@@ -1,0 +1,5 @@
+capital = float (input ("Insira o valor do capital: "))
+taxa = float (input ("Insira o valor da taxa de juros (decimal): "))
+tempo = float (input ("Insira o tempo da aplicação: "))
+M = capital * (1 + taxa)**tempo
+print (" O montante vale : R$ ", M)
